@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ShoppingBag, Menu, Search, ArrowRight, Flame, X } from 'lucide-react';
+import ScrollSection from '@/components/ScrollSection';
 
 const Index = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
+    <>
     <div className="relative w-full min-h-screen bg-background text-foreground overflow-hidden selection:bg-accent selection:text-accent-foreground">
       
       {/* Navigation */}
@@ -187,6 +189,10 @@ const Index = () => {
       {/* Decorative Gradients */}
       <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-accent/20 to-transparent pointer-events-none z-10" />
     </div>
+
+    {/* GSAP Scroll Section */}
+    <ScrollSection />
+    </>
   );
 };
 
