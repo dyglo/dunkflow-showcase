@@ -100,26 +100,12 @@ const ScrollSection = () => {
         '<0.05'
       );
 
-    // Stage 3: Detail Focus & 4th Image Introduction (45% to 70%)
+    // Stage 3: Text Transition & Hold (45% to 70%)
     tl.to('#text-2', {
       opacity: 0,
       duration: 0.08,
       ease: 'power2.inOut',
     })
-      .fromTo(
-        '#shoe-center-alt',
-        {
-          scale: 0.9,
-          opacity: 0,
-        },
-        {
-          scale: 1.1,
-          opacity: 1,
-          duration: 0.15,
-          ease: 'power3.out',
-        },
-        '<'
-      )
       .to(
         '#text-3',
         {
@@ -145,16 +131,6 @@ const ScrollSection = () => {
           ease: 'expo.out',
         },
         '<0.02'
-      )
-      .to(
-        '#shoe-center-alt',
-        {
-          scale: 1.4,
-          opacity: 0,
-          duration: 0.12,
-          ease: 'expo.out',
-        },
-        '<0.05'
       )
       .to(
         '#shoe-right',
@@ -207,18 +183,10 @@ const ScrollSection = () => {
             style={{ opacity: 0, willChange: 'transform, opacity' }}
           />
 
-          {/* Image 4 - Center Detail Alt */}
-          <img
-            id="shoe-center-alt"
-            src={shoeCenterAlt}
-            alt="Nike SB Dunk Detail View"
-            className="absolute w-[450px] h-auto object-contain z-20"
-            style={{ opacity: 0, willChange: 'transform, opacity' }}
-          />
         </div>
 
         {/* Text Overlays */}
-        <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute inset-0 pointer-events-none z-50">
           {/* Text Block 1 */}
           <div
             id="text-1"

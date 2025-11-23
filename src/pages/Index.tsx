@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ShoppingBag, Menu, Search, ArrowRight, Flame, X } from 'lucide-react';
 import ScrollSection from '@/components/ScrollSection';
+import DetailSection from '@/components/DetailSection';
 
 const Index = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -192,6 +193,9 @@ const Index = () => {
 
     {/* GSAP Scroll Section */}
     <ScrollSection />
+    
+    {/* Detail Section */}
+    <DetailSection />
     </>
   );
 };
