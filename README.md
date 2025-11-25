@@ -225,15 +225,3 @@ This creates an optimized production build in the `dist/` directory.
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is private and proprietary.
-
-## 👨‍💻 Author
-
-Built with ❤️ using modern web technologies.
-
----
-
-**Note**: This project was created with [Lovable](https://lovable.dev) and can be edited both locally and through the Lovable platform.
