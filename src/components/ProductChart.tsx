@@ -6,7 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 // Import images
 import img1 from '@/assets/products-images/Concepts_x_Nike_SB_Dunk_Low__Orange_Lobster_-removebg-preview.png';
-import img2 from '@/assets/products-images/Who_said_fruit_doesn_t_flex__These_SBs_aren_t_made_for_eating__but_they_sure_go_hard__More_juicy_concepts_on_the_way_______Made_using__dreamina_ai_____ORIGINAL_CONCEPT_DESIGN___2025_SNEAKR0H1IT-remove.png';
+import img2 from '@/assets/products-images/fruit-flex-dunk.png';
 import img3 from '@/assets/products-images/_Nike_X_Concepts_Sb_Dunk_Low______Lobster_Special_Box_____Sneakers_-_Orange_-removebg-preview.png';
 import img4 from '@/assets/products-images/download__15_-removebg-preview.png';
 
